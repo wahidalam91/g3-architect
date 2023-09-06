@@ -1,10 +1,18 @@
 /* Google Font Links */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Open+Sans:wght@400;800&family=Work+Sans:wght@400;600;700&display=swap');
 
+/* Shared Styles */
 *{
     font-family: 'Work Sans', sans-serif;
 }
 
+.section-title{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* Header Section */
 header{
     background: rgba(255, 144, 14, 0.10);
     padding: 50px 240px;
@@ -14,12 +22,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.nav-title{
-    color: #131313;
-    font-size: 45px;
-    font-weight: 700;
 }
 
 nav > ul{
@@ -79,29 +81,6 @@ nav li a{
     width: 100%;
 }
 
-/* Responsive Styles: Small or Mobile */
-@media screen and (max-width: 576px) {
-    header{
-        padding: 20px;
-    }
-
-    nav{
-        flex-direction: column;
-    }
-}
-
-/* Responsive Styles: Medium or Tablet */
-@media screen and 
-(min-width: 577px) and 
-(max-width: 992px) {
-    header{
-        padding: 50px;
-    }
-
-    nav{
-        flex-direction: column;
-    }
-}
 
 /* Main Section Styles */
 
@@ -110,6 +89,7 @@ main{
     margin: 70px auto;
 }
 
+/* Team Section Styles */
 .teams-container{
     display:flex;
     align-items: center;
@@ -137,8 +117,46 @@ main{
     margin-top: 5px;
     color: #727272;
 }
+
+/* Features Section Styles */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive Styles: Small or Mobile */
 @media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
     .teams-container{
         flex-direction: column;
     }
@@ -157,6 +175,14 @@ main{
 @media screen and 
 (min-width: 577px) and 
 (max-width: 992px) {
+    header{
+        padding: 50px;
+    }
+
+    nav{
+        flex-direction: column;
+    }
+
     .teams-container{
         flex-direction: column;
     }
