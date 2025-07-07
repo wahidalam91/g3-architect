@@ -160,6 +160,7 @@ header{
 /* Features You.... */
 .features{
   margin-top: 130px;
+  margin-bottom: 130px;
 }
 
 .features .container{
@@ -236,6 +237,104 @@ header{
   display: none;
 }
 
+/* Some Facts */
+.some-fact-title{
+  color: rgb(19, 19, 19);
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.some-fact-description{
+  width: 40%;
+  margin-top: 24px;
+  margin-bottom: 100px;
+
+  color: rgb(114, 114, 114);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.fact-cards-container{
+  padding: 0 50px;
+  margin-bottom: 130px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.fact-card{
+  width: 241px;
+  height: 241px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgb(255, 144, 14);
+  border-radius: 8px;
+}
+
+.numbers{
+  color: rgb(66, 66, 66);
+  font-size: 2.8rem;
+  font-weight: 600;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.fact-title{
+  margin-top: 5px;
+  color: rgb(114, 114, 114);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.our-sponsors{
+  margin-top: 130px;
+}
+
+.our-sponsor-title{
+  margin: 0 auto;
+  color: rgb(19, 19, 19);
+  font-size: 2.8rem;
+  font-weight: 700;
+  line-height: 53px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.our-sponsor-description{
+  width: 40%;
+  margin: 0 auto;
+  color: rgb(114, 114, 114);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sponsors-logo-container{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  filter: grayscale(100%);
+
+}
+
+
+
+
 
 
 
@@ -246,6 +345,7 @@ header{
     padding: 20px;
     margin-bottom: 20px;
   }
+
 
   .nav-container,
   .menu,
@@ -298,6 +398,10 @@ header{
     margin: 20px;
   }
 
+  .features{
+    margin-top: 5px;
+  }
+
   .features-title{
   border-left: none ;
   padding: 0;
@@ -327,6 +431,48 @@ header{
   .experience{
   display: block;
   }
+
+  .some-fact-title{
+  text-align: center;
+}
+
+.some-fact-description{
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.fact-cards-container{
+  margin-bottom: 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+}
+
+.our-sponsors{
+  margin-top: 10px;
+}
+
+
+.our-sponsor-description{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sponsors-logo-container{
+  margin: 0 auto;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+  padding: 0 70px;
+  filter: grayscale(0%);
+  margin-bottom: 20px;
+
+}
+
+
+
 
 
 
@@ -390,6 +536,10 @@ header{
     margin: 50px;
   }
 
+  .features{
+    margin-top: 5px;
+  }
+
   .features-title{
   border-left: none ;
   padding: 0;
@@ -417,5 +567,48 @@ header{
     display: block;
     margin: 0 auto;
   }
+
+    .some-fact-title{
+    text-align: center;
+  } 
+
+  .some-fact-description{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+  }
+
+.fact-cards-container{
+  margin: 0 auto;
+  padding: 0px 140px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.our-sponsors{
+  margin-top: 20px;
+  padding: 0 70px;
+}
+
+
+.our-sponsor-description{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sponsors-logo-container{
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 0 50px;
+  filter: grayscale(0%);
+  margin-bottom: 20px;
+
+}
+
+
+
 
 }
