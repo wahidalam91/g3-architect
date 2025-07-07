@@ -45,6 +45,8 @@ header{
   margin-bottom: 85px;
 }
 
+
+
 /* Nav Styles */
 .nav-container{
   justify-content: space-between;
@@ -300,6 +302,7 @@ header{
 
 .our-sponsors{
   margin-top: 130px;
+  margin-bottom: 140px;
 }
 
 .our-sponsor-title{
@@ -330,6 +333,21 @@ header{
   grid-template-columns: repeat(5, 1fr);
   filter: grayscale(100%);
 
+}
+
+footer{
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+footer p{
+  padding: 45px 410px;
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  
 }
 
 
@@ -471,6 +489,22 @@ header{
 
 }
 
+footer .container{
+  width: 100%;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+footer p{
+  padding: 20px;
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  
+}
+
 
 
 
@@ -608,6 +642,21 @@ header{
 
 }
 
+footer .container{
+  width: 100%;
+  background-color: rgba(255, 144, 14, 0.1);
+}
+
+footer p{
+  padding: 20px;
+  color: rgb(66, 66, 66);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  
+}
 
 
 
